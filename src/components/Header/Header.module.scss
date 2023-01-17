@@ -1,0 +1,31 @@
+.header_top {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 0;
+}
+
+.logo {
+	width: 30%;
+	height: 60px;
+}
+
+.phones {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.worktime {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile {
+	width: 30%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}

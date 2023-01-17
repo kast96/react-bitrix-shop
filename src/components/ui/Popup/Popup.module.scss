@@ -1,0 +1,49 @@
+.popup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba($color: #000, $alpha: 0.8);
+}
+
+.container {
+	position: relative;
+	background-color: var(--background-color);
+	max-width: 800px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.close {
+	position: absolute;
+	bottom: 100%;
+	left: 100%;
+	color: var(--main-color-text);
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.header {
+	padding: 10px 20px;
+	border-bottom: 1px solid var(--border-color);
+}
+
+.title {
+
+}
+
+.body {
+	padding: 10px 20px;
+}

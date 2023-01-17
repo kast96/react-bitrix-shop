@@ -1,0 +1,11 @@
+.button:global(.sm) {
+	font-size: 0.875rem;
+
+	.icon {
+		padding: 3px 5px;
+	}
+
+	.text {
+		padding: 3px 10px;
+	}
+}

@@ -1,0 +1,21 @@
+.button:global(.line) {
+	background-color: transparent;
+	border-color: transparent;
+	color: var(--link-color);
+
+	&:hover {
+		border-color: transparent;
+		background-color: transparent;
+		color: var(--link-color-hover);
+	}
+
+	.icon {
+		padding-left: 0;
+		padding-right: 5px;
+	}
+
+	.text {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

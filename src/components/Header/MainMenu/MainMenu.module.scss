@@ -1,0 +1,21 @@
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--main-color);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.link {
+	display: block;
+	padding: 16px 20px;
+	text-decoration: none;
+	color: var(--main-color-text);
+	font-weight: 600;
+
+	&:global(.active),
+	&:hover {
+		background-color: var(--main-color-hover);
+	}
+}
